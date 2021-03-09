@@ -21,6 +21,7 @@ print(f'conversion de  {args.input} en pdf ')
 #for name in glob.glob('*.pdf'):
     #print(name)
     
+inputFile = args.input    
 # TODO ajouter une fonction pour convertir un docx ou bun odt en pdf avec pandoc    
 pypandoc.convert_file(args.input, 'pdf', outputfile=inputFile[:-4]+".pdf")
 # fichier a decouper
