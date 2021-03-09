@@ -1,4 +1,6 @@
 # split_document
 Split a document by keyword
 
-Ce script nécessite python-docx, pypdf2 et pypandoc 
+Ce script nécessite les librairies python-docx, pypdf2 et pypandoc 
+
+et les programmes texlive et pandoc
