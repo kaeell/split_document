@@ -8,7 +8,6 @@ from pathlib import Path
 import os
 import PyPDF2
 import os
-os.environ.setdefault('PYPANDOC_PANDOC', '/usr/bin/pandoc')
 import pypandoc
 import argparse
 
